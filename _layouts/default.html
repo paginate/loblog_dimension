@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<home>
+    <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+</home>
+
+<body>
+	
+	<div class="main_container">
+            {% if page.carousel %}
+            <div class="flexslider">
+            <ul class="slides">
+                {% for slides in page.carousel %}
+                <li>
+                <img src="{{ slides.image }}">
+                </li>
+                {% endfor %}
+            </ul>
+            </div>
+            {% endif %}
+	
+            <main>
+                    <article>
+                            {{ content }}
+                    </article>
+            </main>
+        </div>
+</body>
+
+</html>
