@@ -24,7 +24,7 @@
 				<!-- Header -->
 					<header id="header">
 						<div class="logo">
-							<span class="icon" style="font-size:50px">&#x271D;</span>
+							<span class="icon" style="font-size:50px">&#x1f4a1;</span>
 						</div>
 						<div class="content">
 							<div class="inner">
